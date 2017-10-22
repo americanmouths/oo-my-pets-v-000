@@ -71,7 +71,7 @@ class Owner
       if pets.empty?
          pets[quantity].mood = "nervous"
       else
-        pets.mood = "happy"
+        pets[quantity].mood = "happy"
     end
   end
   end
