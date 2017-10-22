@@ -69,7 +69,7 @@ class Owner
   def sell_pets
     @pets.each do |pets, quantity|
       if pets.empty?
-         pets.mood = "nervous"
+         pets[quantity].mood = "nervous"
       else
         pets.mood = "happy"
     end
