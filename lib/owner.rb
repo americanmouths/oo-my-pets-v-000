@@ -15,6 +15,10 @@ class Owner
     @@all < self
   end
 
+  def self.reset_all
+    @@all = []
+  end
+
   def species
   end
 
