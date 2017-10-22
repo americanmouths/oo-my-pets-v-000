@@ -33,13 +33,15 @@ class Owner
   end
 
   def name
-    @name = name
+    @name
   end
 
-  def buy_fish
+  def buy_fish(name)
+    new_fish = Fish.new(name)
+    @pets
   end
 
-  def buy_cat
+  def buy_cat(name)
   end
 
 
