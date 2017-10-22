@@ -1,6 +1,7 @@
 class Owner
   # code goes here
-  attr_accessor :pets, :species
+  attr_accessor :pets
+  attr_reader :species
   attr_writer :name
 
   @@all = []
@@ -23,8 +24,8 @@ class Owner
     @@all.size
   end
 
-  def species(species)
-    @species = species
+  def species
+    @species
   end
 
   def say_species
