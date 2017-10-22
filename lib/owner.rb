@@ -1,3 +1,4 @@
+require 'pry'
 
 class Owner
   # code goes here
@@ -51,6 +52,7 @@ class Owner
   def walk_dogs
     @pets[:dogs] = Dog.new(name, mood)
     @pets[:dogs].mood = "happy"
+    binding.pry
   end
 
 
