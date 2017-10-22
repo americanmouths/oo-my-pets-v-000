@@ -30,7 +30,7 @@ class Owner
   end
 
   def say_species
-    "I am a #{self.species}."
+    "I am a #{@species}."
   end
 
   def name
@@ -38,9 +38,8 @@ class Owner
   end
 
   def buy_fish(name)
-    self.pets[:fishes].each do |fish|
-      fish = Fish.new
-    end
+      new_fish = Fish.new(name)
+      @pets[:fishes] << new_fish
   end
 
   def buy_cat(name)
