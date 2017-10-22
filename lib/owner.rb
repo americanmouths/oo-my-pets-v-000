@@ -16,5 +16,12 @@ class Owner
 
   def name
   end
+
+  def buy_fish
+  end
+
+  def buy_cat
+  end
+
   
 end
