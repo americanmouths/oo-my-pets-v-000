@@ -1,4 +1,3 @@
-require 'pry'
 
 class Owner
   # code goes here
@@ -51,7 +50,6 @@ class Owner
 
   def walk_dogs
     @pets[:dogs]
-    binding.pry
   end
 
 
