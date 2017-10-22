@@ -11,8 +11,8 @@ class Owner
     @@all << owner
   end
 
-  def self.all?
-    
+  def self.all
+    @@all < self
   end
 
   def species
@@ -30,5 +30,5 @@ class Owner
   def buy_cat
   end
 
-  
+
 end
