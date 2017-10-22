@@ -23,7 +23,7 @@ class Owner
     @@all.size
   end
 
-  def species
+  def species(species)
   end
 
   def say_species
