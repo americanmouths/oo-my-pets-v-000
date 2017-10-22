@@ -25,7 +25,7 @@ class Owner
     @@all.size
   end
 
-  def species(new_species)
+  def species
   end
 
   def say_species
