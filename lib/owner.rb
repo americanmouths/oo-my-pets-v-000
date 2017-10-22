@@ -1,4 +1,4 @@
-require 'pry'
+
 class Owner
   # code goes here
   attr_accessor :pets, :name
@@ -49,8 +49,8 @@ class Owner
   end
 
   def walk_dogs
-    @pets[:dogs]
-    binding.pry
+    @pets[:dogs] = Dog.new(name, mood)
+    @pets[:dogs].mood = "happy"
   end
 
 
