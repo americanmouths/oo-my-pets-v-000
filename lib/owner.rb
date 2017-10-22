@@ -12,7 +12,7 @@ class Owner
   end
 
   def self.all
-    @@all.owner
+    @@all
   end
 
   def self.reset_all
