@@ -1,5 +1,5 @@
 class Cat
-  attr_accesor :mood
+  attr_accessor :mood
   attr_writer :name
 
   # code goes here
