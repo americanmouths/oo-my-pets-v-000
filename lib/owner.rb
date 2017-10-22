@@ -26,11 +26,11 @@ class Owner
   end
 
   def species
-    @species
+    self.species
   end
 
   def say_species
-    "I am a #{@species}."
+    "I am a #{self.species}."
   end
 
   def name
