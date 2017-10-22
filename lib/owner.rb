@@ -66,5 +66,10 @@ class Owner
     end
   end
 
+  def sell_pets
+    @pets.each do |sell|
+      sell.mood = "nervous"
+    end
+  end
 
 end
